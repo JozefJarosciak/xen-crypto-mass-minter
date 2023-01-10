@@ -1,12 +1,13 @@
 # ----------------------------------------------------------------------------------------------
 # XEN CRYPTO (Multi-Wallet Creator & XEN Minter) for Binance Smart Chain (BSC)
 #
-# DISCLAIMER
-## This script is made only for experienced python coders.
-# Do not use this script if you don't know Python or do not have a good knowledge of how XEN, BSC and ETH works.lo you're doing.
-# None of the authors, or contributors to this script can be responsible for any losses you may experience by not understanding what you're doing.
-# Take all steps necessary to gather understanding of how this script works before you attempt to run it or configure it.
-# Long live the XEN Crypto!
+# DISCLAIMER:
+# You are solely responsible for ensuring the secure configuration and operation of this script, including but not limited to protecting it from unauthorized access by third parties.
+# Failure to do so may result in the loss of your private keys, XEN or other cryptocurrencies stored in your account. You should exercise caution and only run this script on a secure workstation or server.
+# By using this script, you acknowledge that you understand the inherent risks associated with running this script and that you agree to use this script at your own risk.
+# The creator of this script will not be held liable for any damages, loss of funds, or other negative consequences that may result from you or any third party using this script.
+# You are solely responsible for any actions taken using this script, and for securing your private keys and other sensitive information.
+# This script is provided 'as is,' and the creator makes no warranty, express or implied, of any kind.
 
 # DETAILS
 # In the README.md file
