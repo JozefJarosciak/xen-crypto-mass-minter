@@ -26,19 +26,19 @@ from datetime import datetime, timedelta
 # CONFIG - START
 # ----------------------------------------------------------------------------------------------
 number_of_accounts_to_create = 10  # number of wallets
-filename_for_saving_new_wallet_details = "new_wallets-bnb.txt" # this is where all newly created wallets will be saved, this can be either just a file name, or a full path on your windows or linux machine (only tested on windows)
+filename_for_saving_new_wallet_details = "new_wallets-bnb.txt" # This is where all newly created wallets will be saved, this can be either just a file name or a full path on your Windows or Linux machine (only tested on Windows)
 claim_set_or_date_range = 1  # 0 - for set date for minting | 1 for data range - data range starts at 'offset=x' and goes until 'number_of_accounts_to_create=x')
-offset_days = 1  # Only applicable for date range. This will increase by one day for each new account. !!! - Be careful not to go over max. mint days (390 at the moment of release of this script)
-days_to_claim = 400  # Ignored in data range setting
-from_account = 'Address of you main funding ETH account on BSC network'  # - E.g. 0x78eCxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxfFE
-from_account_private_key = 'Address of you main funding ETH account on BSC network'  # - E.g axxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxc
-how_much_BNB_to_transfer = 0.0019  # 0.01 BNB - I recommend 0.0019 as a minimum. Seems to work fine for me, but increase if it script fails to mint XEN on the accounts (in that case script would exit with error)
+offset_days = 1  # Only applicable for the date range. This will increase by one day for each new account. !!! - Be careful not to go over the maximum. mint days (390 at the moment of release of this script)
+days_to_claim = 400  # Ignored in date range setting
+from_account = 'Address of you main funding ETH account on BSC network'
+from_account_private_key = 'Address of you main funding ETH account on BSC network'
+how_much_BNB_to_transfer = 0.0019  # 0.01 BNB - I recommend 0.0019 as a minimum. It seems to work fine for me, but increases if it script fails to mint XEN on the accounts (in that case, the script would exit with error)
 delay_between_funding_new_account_and_claiming_xen_reward = 30  # This is a delay between the new crypto wallet being seeded with money and the action of minting XEN
 your_pass_phrase = 'your_pass_phrase' # password phrase to create new accounts
 
 # CONFIG - DO NOT CHANGE TWO VALUES BELOW
 bsc_url = 'https://bsc-dataseed.binance.org:443'  # DO NOT CHANGE THIS
-xen_account = '0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e'  # DONT CHANGE THIS!!! It is an official address of XEN on BSC network (https://bscscan.com/address/0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e)
+xen_account = '0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e'  # DONT CHANGE THIS!!! It is the official address of XEN on the BSC network (https://bscscan.com/address/0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e)
 # CONFIG - END
 # ----------------------------------------------------------------------------------------------
 
